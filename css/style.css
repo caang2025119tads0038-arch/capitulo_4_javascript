@@ -1,1 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Didot, serif;
+    background-color: #ddccb0;
+    color: #634736;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+h1 {
+
+}
