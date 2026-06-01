@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Tornando Páginas Web Interativas com JavaScript</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+
+        <body>
+            <h1>Tornando Páginas Web Interativas com JavaScript</h1>
+
+            <h3>Incluindo JavaScript</h3>
+            <p>
+                Existem múltiplas maneiras de incluir JavaScript em uma página web. É altamente recomendado utilizar uma estrutura de diretórios organizada, separando arquivlos CSS em uma pasta e arquivos JavaScript em outra, geralmente chamada de <b>scripts</b>. O código JavaScript pode ser armazenado em arquivos externos com a extensão <b>.js</b> e integrado ao HTML por meio do elemento <b>script</b>, usando o atributo <b>src</b> para indicar a fonte. Ainda que seja possível definir o código JavaScript dentro do elemento script no HTML, essa prática não é recomendável por misturar linguagens em um único arquivo.
+            </p>
+
+            <h3>Exibindo Caixas de Diálogo</h3>
+            <p>
+                JavaScript oferece funções nativas para a exibição de caixas de diálogo: <b>alert()</b> para mensagens simples, <b>confirm()</b> para diálogos de confirmação com os botões de OK e Cancelar e <b>prompt()</b> para caixas que recebem entradas de texto. Na prática, contudo, essas ferramentas são pouco usadas por serem limitadas em funcionalidade não serem costumizáveis.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Tipos de Caixas de Diálogo</th>
+                </tr>
+                <tr>
+                    <th>alert()</th>
+                    <td>Exibe uma caixa simples de diálogo.</td>
+                </tr>
+                <tr>
+                    <th>confirm()</th>
+                    <td>Exibe uma caixa de diálogo com os botões "OK" e "Cancelar".</td>
+                </tr>
+                <tr>
+                    <th>prompt()</th>
+                    <td>Exibe uma caixa de diálogo com um espaço para entrada de texto.</td>
+                </tr>
+            </table>
+
+            <h3>Usando o Console de Desenvolvedor</h3>
+            <p>
+                Para fins de teste, os navegadores oferecem consoles de desenvolvedor onde mensagens podem ser escritas a partir de programas JavaScript. Por meio do objeto <b>console</b>, desenvolvedores podem usar alguns métodos, como mostrados na tabela a seguir:
+            </p>
+
+            <table>
+                <tr>
+                    <th>Métodos Comuns do Objeto console</th>
+                </tr>
+                <tr>
+                    <th>.log()</th>
+                    <td>Mensagens normais.</td>
+                </tr>
+                <tr>
+                    <th>.debug()</th>
+                    <td>Depuração.</td>
+                </tr>
+                <tr>
+                    <th>.error()</th>
+                    <td>Mensagens de erro.</td>
+                </tr>
+                <tr>
+                    <th>.info()</th>
+                    <td>Informações.</td>
+                </tr>
+                <tr>
+                    <th>.warn()</th>
+                    <td>Avisos.</td>
+                </tr>
+            </table>
+            <script src="js/main.js"></script>
+        </body>
+    </html>
