@@ -4,14 +4,34 @@
 }
 
 body {
-    font-family: Didot, serif;
-    background-color: #ddccb0;
-    color: #634736;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #222226;
+    color: #f3f5e5;
     max-width: 1000px;
-    margin: 2rem auto;
-    padding: 2rem;
 }
 
 h1 {
+    color: #88de32;
+}
 
+h2 {
+    color: #88de32;
+}
+
+h3 {
+    color: #88de32;
+}
+
+table {
+    border: 1px dashed #f3f5e5;
+    text-align: center;
+}
+
+th {
+    border: 1px dashed #f3f5e5;
+    color: #68b931;
+}
+
+td {
+    border: 1px dashed #f3f5e5;`
 }

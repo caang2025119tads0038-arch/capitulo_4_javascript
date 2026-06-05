@@ -21,7 +21,9 @@
 
             <table>
                 <tr>
-                    <th>Tipos de Caixas de Diálogo</th>
+                    <th>Tipo</th>
+                    <th>Funcionalidade</th>
+                    <th>Teste</th>
                 </tr>
                 <tr>
                     <th>alert()</th>
@@ -47,7 +49,8 @@
 
             <table>
                 <tr>
-                    <th>Métodos Comuns do Objeto console</th>
+                    <th>Método</th>
+                    <th>Funcionalidade</th>
                 </tr>
                 <tr>
                     <th>.log()</th>
@@ -89,7 +92,8 @@
 
             <table>
                 <tr>
-                    <th>Tipos de Dados em JavaScript</th>
+                    <th>Tipo de Dado</th>
+                    <th>Descrição</th>
                 </tr>
                 <tr>
                     <th>Números</th>
@@ -108,6 +112,113 @@
                     <td>Usados para agrupar informações de forma significativa e organizada.</td>
                 </tr>
             </table>
+
+            <h3>Usando Operadores</h3>
+            <p>
+                Os operadores permitem manipular valores e derivar novos resultados. A tabela abaixo demonstra os tipos de operadores usados em JavaScript:
+            </p>
+
+            <table>
+                <tr>
+                    <th>Tipo de Operador</th>
+                    <th>Símbolos Usados</th>
+                </tr>
+                <tr>
+                    <th>Aritméticos</th>
+                    <td>+, -, *, /, %</td>
+                </tr>
+                <tr>
+                    <th>Atribuição</th>
+                    <td>=</td>
+                </tr>
+                <tr>
+                    <th>Concatenação</th>
+                    <td>+</td>
+                </tr>
+                <tr>
+                    <th>Lǵicos</th>
+                    <td>&&, ||, !</td>
+                </tr>
+                <tr>
+                    <th>Comparação</th>
+                    <td>==, ===, !=, !==, >, <, >=, <=</td>
+                </tr>
+            </table>
+
+            <h2>Usando Estruturas de Controle</h2>
+            <h3>Usando Instruções Condicionais e Ramificações</h3>
+            <p>
+                As estruturas de controle definem quantas vezes um bloco de código deve ser exectutado ou se ele deve ser executado.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Estrutura de Controle</th>
+                    <th>Função</th>
+                </tr>
+                <tr>
+                    <th>if\else</th>
+                    <td>Executra um bloco se uma condição for verdadeira. Junto com o else, adiciona caminhos alternativos.</td>
+                </tr>
+                <tr>
+                    <th>switch\case</th>
+                    <td>Permite ramificações baseadas em valores específicos de uma variável.</td>
+                </tr>
+            </table>
+
+            <h3>Usando Repetições</h3>
+            <p>As estruturas de repetição executam um bloco de código enquanto uma condição for atendida.</p>
+
+            <table>
+                <tr>
+                    <th>Estrutura de Repetição</th>
+                    <th>Função</th>
+                </tr>
+                <tr>
+                    <th>for</th>
+                    <td>Utiliza uma variável de contagem, uma condição de parada e uma expressão de incremento.</td>
+                </tr>
+                <tr>
+                    <th>while</th>
+                    <td>Verifica a condição antes de cada iteração, podendo nem chegar a executar o bloco de código.</td>
+                </tr>
+                <tr>
+                    <th>do\while</th>
+                    <td>Verifica a condição após a iteração, garantindo que o o bloco de código seja executado pelo menos uma vez.</td>
+                </tr>
+            </table>
+
+            <h2>Funções e Tratamento de Erros</h2>
+            <h3>Definindo e Chamando Funções</h3>
+            <p>
+                Funções agrupam código em blocos reutilizáveis. Elas podem ser criadas via declaração de função (com a palavra reservada <b>function</b>), expressões de função (atrubuindo uma função anônima a uma variável) ou <b>arrow functions</b>.
+            </p>
+
+            <h3>Passando e Analisando Parâmetros</h3>
+            <p>
+                Valores podem ser passados para as funções através de parâmetros, definidos entre parênteses, permitindo que o código em questão opere sobre valores dinâmicos.
+            </p>
+
+            <h3>Definindo Valores de Retorno</h3>
+            <p>
+                As funções podem devolver informações para o código que a chamou usando a palavra reservada <b>return</b>.
+            </p>
+
+            <h3>Tratamento de Erros</h3>
+            <p>
+                Existem três tipos de erro: erros de sintaxe, de execução e lógicos. Os erros de execução podem ser tratados com blocos <b>try\catch</b>. O código que pode gerar o ero é colocado no <b>try</b>, e a execução passa para o <b>tcatch</b>, onde deve ser tratado. É possível também disparar erros manualmente usando a palavra reservada <b>throw</b>.
+            </p>
+
+            <h2>Objetos e Arrays</h2>
+            <h3>Usando Objetos</h3>
+            <p>
+                Os objetos agrupam funcionalidades relacionadas. A forma mais simples de criá-los é a notação <b>{}</b>, onde se definem as propriedades e métodos. O acesso aos membros de um objeto é feito por meio da notação <b>objeto.membro</b>. Na criação de um objeto, a palavra reservada <b>this</b> é usada para referenciar o próprio objeto dentro de seus métodos.
+            </p>
+
+            <h3>Usando Arrays</h3>
+            <p>
+                Os arrays agrupam valores. Eles podem ser criados com colchetes e os elementos dentro deles separados por vírgulas. O acesso dos itens é feito por meio de seus índices. Alguns dos métodos dos arrays são <b>push(), pop(), filter(), map() e forEach()</b>. Loops são também usados para iterar sobre arrays e a propriedade <b>length</b> é usada para obter seu tamanho.
+            </p>
 
             <script src="js/main.js"></script>
         </body>
